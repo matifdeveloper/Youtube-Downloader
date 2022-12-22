@@ -1,0 +1,19 @@
+Privacy Link
+https://drive.google.com/file/d/13L21i11xoOMMQaS1omvJLu-G_bqsRrrB/view?usp=share_link
+
+App ID: ca-app-pub-5818564663446600~3801225236
+Banner ID: ca-app-pub-5818564663446600/7902716800
+Interstitial ID: ca-app-pub-5818564663446600/6589635134
+
+Release App:
+flutter build appbundle --release
+
+Update Version:
+flutter build appbundle --build-name=1.0.1 --build-number=2
+
+keytool -genkey -v -keystore C:\Android\Projects\yt_downloader\assets\key\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
+
+Keystore Password: noori4547
+First & Last Name: Muhammad Atif
+Organization Unit: individual
+Organization Name: Noori Softtech
